@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export class App extends React.Component {
+import { Navbar } from './navbar.jsx';
+
+export class App extends Component {
   render() {
     return (
-     <div style={{textAlign: 'center'}}>
-        <h1>Hello World</h1>
-      </div>);
+    	<div>
+   			<Navbar />
+   			<h1>Hellow World</h1>
+ 			</div>
+		)
   }
 }
