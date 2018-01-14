@@ -12,7 +12,6 @@ export class Navbar extends Component {
 		return (
 			<div style={styles}>
 				<h1>Grassroots</h1>
-				<button>Log Out</button>
 			</div>
 		)	
 	}
